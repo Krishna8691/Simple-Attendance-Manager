@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nature.attenman">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDataActivity" />
+        <activity android:name=".EditDataActivity" />
+        <activity android:name=".mondayactivity" />
+        <activity android:name=".tuesdayactivity" />
+        <activity android:name=".ListDataActivitytuesday" />
+        <activity android:name=".EditDataActivityTuesday" />
+        <activity android:name=".wednesdayactivity" />
+        <activity android:name=".thursdayactivity" />
+        <activity android:name=".ListDataActivitythursday" />
+        <activity android:name=".ListDataActivitywednesday" />
+        <activity android:name=".EditDataActivityThursday" />
+        <activity android:name=".EditDataActivitywednesday" />
+        <activity android:name=".fridayactivity" />
+        <activity android:name=".ListDataActivityfriday" />
+        <activity android:name=".EditDataActivityFriday" />
+        <activity android:name=".saturdayactivity" />
+        <activity android:name=".ListDataActivitySaturday" />
+        <activity android:name=".EditDataActivitySaturday" />
+        <activity android:name=".TodayMondayActivity" />
+        <activity android:name=".TodayTuesdayActivity" />
+        <activity android:name=".TodayWednesdayActivity" />
+        <activity android:name=".TodayThursdayActivity" />
+        <activity android:name=".TodayFridayActivity" />
+        <activity android:name=".TodaySaturdayActivity" />
+    </application>
+
+</manifest>
